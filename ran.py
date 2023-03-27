@@ -9,6 +9,7 @@ __all__ = [
 
 class RAN(torch.nn.Module):
     def __init__(self, type: str = "direct_ran"):
+        super().__init__()
         self.type = type
         if (self.type == "direct_ran") or (self.type == "rane"):
             pass
