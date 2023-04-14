@@ -17,7 +17,7 @@ class RAN(torch.nn.Module):
             self.atom_env = Linear(1, 10, bias=True)
 
     def ran(self, atomic_numbers, neighbors, r_ij, type: str = "direct"):
-        # edit bondsteps with atomic_numbers
+        # tune bondsteps with atomic_numbers
         atom_num_exp = atomic_numbers.view(-1, atomic_numbers.size(1), 1)
         atom_nbh = atom_num_exp.expand(atom_num_exp.size(0), atom_num_exp.size(1), atom_num_exp.size(1))
         atom_nbh = torch.gather(atom_nbh, 1, neighbors)
@@ -53,7 +53,7 @@ class RAN(torch.nn.Module):
         atom_nbh = atom_num_exp.expand(atom_num_exp.size(0), atom_num_exp.size(1), atom_num_exp.size(1))
         atom_nbh = torch.gather(atom_nbh, 1, neighbors)
 
-        # atomic_numbers is modified by bondsteps, then edit bondsteps by atomic_numbers
+        # atomic_numbers is modified by bondsteps, then tunes bondsteps by atomic_numbers
         atom_mod = atom_num_exp * (atom_nbh + r_ij * 0.01)
         atom_mod_prod = atom_mod.clone()
         atom_mod_prod[atom_mod_prod == float(0)] = float(1)
