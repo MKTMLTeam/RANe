@@ -1,5 +1,8 @@
 # RANe: an Extension of Schnet-bs Model
 
+source paper:
+Hung, S.-H.; Ye, Z.-R.; Cheng, C.-F.; Chen, B.; Tsai, M.-K. *Enhanced Predictions for the Experimental Photophysical Data Using the Featurized Schnet-base Approach.* [ResearchGate](https://www.researchgate.net/publication/367022743_Enhanced_Predictions_for_the_Experimental_Photophysical_Data_Using_the_Featurized_Schnet-bondstep_Approach) (2023)
+
 ![RANe](rane.png)
 
 ## How to use RANe
