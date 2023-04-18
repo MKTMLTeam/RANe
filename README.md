@@ -1,6 +1,29 @@
 # RANe: an Extension of Schnet-bs Model
 
-![](rane.png)
+![RANe](rane.png)
+
+## How to use RANe
+
+import class `RAN` to [schnetpack1.0/src/schnetpack/representation/schnet.py](https://github.com/atomistic-machine-learning/schnetpack/blob/schnetpack1.0/src/schnetpack/representation/schnet.py) like this example:
+```python
+from ran import RAN
+...
+
+class SchNet(nn.Module):
+    def __init__(self, ...):
+        ...
+        # type = "direct_ran", "sumbatch_ran", "summolecule_ran" or "rane", the default is "direct_ran".
+        self.ran = RAN(type)
+        ...
+    
+    def forward(self, inputs):
+        ...
+        r_ij = self.distances(
+            positions, neighbors, cell, cell_offset, neighbor_mask=neighbor_mask
+        )
+        r_ij = self.ran(atomic_numbers, neighbors, r_ij)
+        ...
+```
 
 ## References
 
