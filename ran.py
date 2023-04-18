@@ -14,7 +14,7 @@ class RAN(torch.nn.Module):
         if (self.type == "direct_ran") or (self.type == "rane"):
             pass
         elif (self.type == "sumbatch_ran") or (self.type == "summolecule_ran"):
-            self.atom_env = Linear(1, 10, bias=True)
+            self.atom_env = Linear(1, 10)
 
     def ran(self, atomic_numbers, neighbors, r_ij, type: str = "direct"):
         # tune bondsteps with atomic_numbers
