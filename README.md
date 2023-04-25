@@ -44,4 +44,4 @@ The Journal of Chemical Physics 148(24), 241722 (2018) [10.1063/1.5019779](https
 
 * [5] Ye, Z.-R.; Hung, S.-H.; Chen, B.; Tsai, M.-K. *Assessment of Predicting Frontier Orbital Energies for Small Organic Molecules Using Knowledge-Based and Structural Information.* ACS Eng. Au, 2, pp. 360–368 (2022) [10.1021/acsengineeringau.2c00011](10.1021/acsengineeringau.2c00011)
 
-* [6] Hung, S.-H.; Ye, Z.-R.; Cheng, C.-F.; Chen, B.; Tsai, M.-K. *Enhanced Predictions for the Experimental Photophysical Data Using the Featurized Schnet-base Approach.* [ResearchGate](https://www.researchgate.net/publication/367022743_Enhanced_Predictions_for_the_Experimental_Photophysical_Data_Using_the_Featurized_Schnet-bondstep_Approach) (2023)
+* [6] Hung, S.-H.; Ye, Z.-R.; Cheng, C.-F.; Chen, B.; Tsai, M.-K. *Enhanced Predictions for the Experimental Photophysical Data Using the Featurized Schnet-base Approach.* J. Chem. Theory Comput. [ResearchGate](https://www.researchgate.net/publication/367022743_Enhanced_Predictions_for_the_Experimental_Photophysical_Data_Using_the_Featurized_Schnet-bondstep_Approach) (2023)
