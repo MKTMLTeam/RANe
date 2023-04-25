@@ -42,6 +42,6 @@ The Journal of Chemical Physics 148(24), 241722 (2018) [10.1063/1.5019779](https
 
 * [4] K. T. Schütt; S. S. P. Hessmann; N. W. A. Gebauer; J. Lederer; M. Gastegger. *SchNetPack 2.0: A neural network toolbox for atomistic machine learning.* [arXiv:2212.05517](https://arxiv.org/abs/2212.05517). (2022)
 
-* [5] Ye, Z.-R.; Hung, S.-H.; Chen, B.; Tsai, M.-K. *Assessment of Predicting Frontier Orbital Energies for Small Organic Molecules Using Knowledge-Based and Structural Information.* ACS Eng. Au, 2, pp. 360–368 (2022) [10.1021/acsengineeringau.2c00011](10.1021/acsengineeringau.2c00011)
+* [5] Ye, Z.-R.; Hung, S.-H.; Chen, B.; Tsai, M.-K. *Assessment of Predicting Frontier Orbital Energies for Small Organic Molecules Using Knowledge-Based and Structural Information.* ACS Eng. Au, 2, pp. 360–368 (2022) [10.1021/acsengineeringau.2c00011](https://pubs.acs.org/doi/10.1021/acsengineeringau.2c00011)
 
-* [6] Hung, S.-H.; Ye, Z.-R.; Cheng, C.-F.; Chen, B.; Tsai, M.-K. *Enhanced Predictions for the Experimental Photophysical Data Using the Featurized Schnet-base Approach.* J. Chem. Theory Comput. (2023) [10.1021/acs.jctc.3c00054](10.1021/acs.jctc.3c00054)
+* [6] Hung, S.-H.; Ye, Z.-R.; Cheng, C.-F.; Chen, B.; Tsai, M.-K. *Enhanced Predictions for the Experimental Photophysical Data Using the Featurized Schnet-base Approach.* J. Chem. Theory Comput. (2023) [10.1021/acs.jctc.3c00054](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00054)
