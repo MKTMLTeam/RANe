@@ -11,9 +11,7 @@ class RAN(torch.nn.Module):
     def __init__(self, type: str = "direct_ran"):
         super().__init__()
         self.type = type
-        if (self.type == "direct_ran") or (self.type == "rane"):
-            pass
-        elif (self.type == "sumbatch_ran") or (self.type == "summolecule_ran"):
+        if (self.type == "sumbatch_ran") or (self.type == "summolecule_ran"):
             self.atom_env = Linear(1, 10)
 
     def ran(self, atomic_numbers, neighbors, r_ij, type: str = "direct"):
